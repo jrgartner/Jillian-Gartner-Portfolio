@@ -1,0 +1,236 @@
+/* This is the code for the main menu*/
+
+.main-menu {
+  width: 100%;
+  height: 100px;
+  background-color: #6baf92;
+  height: auto;
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+/* This is the code for my name*/
+.main-menu-top {
+  background-color: #358873;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  font-size: 40px;
+  padding: 15px 15px 15px 10px;
+}
+
+.main-menu-top h1 {
+  color: whitesmoke;
+  margin-left: 15px;
+}
+
+/* .figure {
+  margin-top: 7rem;
+} */
+.top-image-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1450px;
+  max-height: 250px;
+}
+
+/* Nav Bar  */
+.main-menu-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: whitesmoke;
+  justify-content: flex-end;
+}
+
+.main-menu-nav a {
+  text-align: center;
+  width: 9rem;
+  display: flex;
+  font-size: 18px;
+  color: whitesmoke;
+  line-height: 5rem;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  justify-content: center;
+}
+/* Main Content */
+
+#main-content {
+  margin-top: 2rem;
+}
+
+.about-me .title {
+  float: left;
+}
+.about-me .title h1 {
+  font-size: 4vw;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  padding-right: 15px;
+  color: #358873;
+  margin-left: 8rem;
+  border-right: solid;
+  border-color: #6baf92;
+}
+.jill-img {
+  max-height: 100px;
+  width: auto;
+}
+.about-me .ab-decp {
+  float: right;
+  padding-left: 15px;
+  display: flex;
+}
+.about-me .am-descp p {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 1vw;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  color: #6baf92;
+  margin-right: 15px;
+  border-left: solid;
+  border-color: #6baf92;
+}
+
+/* Certifications Section */
+
+.certifications {
+  margin-top: 2rem;
+}
+
+.certifications .certs-title {
+  float: left;
+}
+
+.certs-title h1 {
+  font-size: 4vw;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  padding-right: 15px;
+  color: #358873;
+  margin-left: 8rem;
+  border-right: solid;
+  border-color: #6baf92;
+}
+
+.certs-img {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  border-left: solid;
+  border-color: #6baf92;
+}
+.certs-sections {
+  display: flex;
+}
+
+.certs-img embed {
+  width: auto;
+  height: auto;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.certs-img p {
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  padding-right: 15px;
+  color: #6baf92;
+  font-size: 1vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Projects  */
+.projects {
+  margin-top: 2rem;
+}
+
+.projects .projects-title {
+  float: left;
+}
+.projects .projects-title h1 {
+  font-size: 4vw;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  padding-right: 15px;
+  color: #358873;
+  margin-left: 8rem;
+  border-right: solid;
+  border-color: #6baf92;
+}
+
+.projects .pro-descp {
+  display: flex;
+}
+.projects .pro-descp p {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 1vw;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  color: #6baf92;
+  margin-right: 15px;
+  border-left: solid;
+  border-color: #6baf92;
+}
+/* Footer Information */
+
+footer {
+  margin-top: 10rem;
+}
+
+.contact {
+  width: 100%;
+  height: 100px;
+  background-color: #6baf92;
+  height: auto;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-top {
+  background-color: #358873;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  font-size: 20px;
+  padding: 15px 15px 15px 10px;
+}
+
+.contact a {
+  text-align: center;
+  width: 9rem;
+  display: flex;
+  font-size: 1vw;
+  color: whitesmoke;
+  line-height: 5rem;
+  font-family: "Fira Mono", "IBM Plex Mono", "Red Hat Mono", monospace;
+  justify-content: center;
+}

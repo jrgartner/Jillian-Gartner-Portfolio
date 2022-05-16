@@ -177,6 +177,7 @@
 
 .projects .pro-descp {
   display: flex;
+  flex-direction: column;
 }
 .projects .pro-descp p {
   display: flex;
@@ -188,6 +189,22 @@
   margin-right: 15px;
   border-left: solid;
   border-color: #6baf92;
+}
+
+.projects .pro-descp .crime-watch img {
+  max-width: 500px;
+  height: fit-content;
+  border: solid black 5px;
+}
+.projects .pro-descp .timed-coding-quiz img {
+  max-width: 500px;
+  height: fit-content;
+  border: solid black 5px;
+}
+.projects .pro-descp .password-generator img {
+  max-width: 500px;
+  height: fit-content;
+  border: solid black 5px;
 }
 /* Footer Information */
 

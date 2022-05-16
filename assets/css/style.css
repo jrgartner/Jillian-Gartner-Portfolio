@@ -178,6 +178,8 @@
 .projects .pro-descp {
   display: flex;
   flex-direction: column;
+  border-left: solid #6baf92;
+  padding-left: 15px;
 }
 .projects .pro-descp p {
   display: flex;
